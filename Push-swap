@@ -1,0 +1,6 @@
+./push_swap $(shuf -i 1-10000 -n 500)
+
+Alternatively 
+
+ARGS=$(shuf -i 1-10000 -n 500)
+./push_swap $ARGS
